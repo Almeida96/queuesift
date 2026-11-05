@@ -1,0 +1,13 @@
+{
+  "Messages": [
+    {
+      "MessageId": "synthetic-sqs-message-1",
+      "ReceiptHandle": "SYNTHETIC_RECEIPT_HANDLE_NOT_TO_FORWARD",
+      "Body": "{\"tenant\":\"north\",\"eventId\":\"sqs-event-1\",\"eventType\":\"order.reserved\",\"occurredAt\":\"2026-11-04T10:00:00Z\",\"expiresAt\":\"2026-11-04T18:00:00Z\",\"orderId\":\"order-sqs-1\",\"quantity\":2,\"channel\":\"web\"}",
+      "Attributes": {
+        "ApproximateReceiveCount": "3",
+        "SentTimestamp": "1793786400000"
+      }
+    }
+  ]
+}
